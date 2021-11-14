@@ -17,8 +17,12 @@
 
   <script>
       var currentURL = window.location.href;
-      newURL = currentURL.replace("https://www.gs1au.org/nlr")
-      window.location = newURL;
+      if(currentURL)
+      {
+        newURL = currentURL.replace("https://www.gs1au.org/nlr")
+        window.location = newURL;
+      }
+
       
       
   </script>
