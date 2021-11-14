@@ -20,12 +20,16 @@
      // if(currentURL)
      // {
         // newURL = currentURL.replace("https://www.gs1au.org/nlr")
-        window.location.assign("https://www.gs1au.org/nlr");
+        // window.location.assign("https://www.gs1au.org/nlr");
         // window.location. = newURL;
         // break;
      // }
 
-      
+     var origin = window.location.origin;
+     if (origin == "https://ashy-stone-0abf8ee0f.azurestaticapps.net")
+     {
+      window.location.assign("https://www.gs1au.org/nlr");
+     }
       
   </script>
 
