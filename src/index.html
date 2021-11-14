@@ -16,10 +16,7 @@
 </body>
 
 <script>
-  (async function(){
-      let { text } = await( await fetch(`/api/GetMessage`)).json();
-      document.querySelector ('#name').textContent = text;
-    } ())
+  window.location.assign("https://www.gs1au.org/nlr"); 
 </script>
 
 </html>
