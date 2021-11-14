@@ -1,3 +1,9 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "my-first-static-web-app"
+    "liveServer.settings.multiRootWorkspaceName": "my-first-static-web-app",
+    "azureFunctions.deploySubpath": "api",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune (functions)"
 }
