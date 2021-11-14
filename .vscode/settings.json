@@ -7,8 +7,8 @@
     "debug.internalConsoleOptions": "neverOpen",
     "azureFunctions.preDeployTask": "npm prune (functions)",
     "liveServer.settings.proxy": {
-        "enable": false,
-        "baseUri": "https://ashy-stone-0abf8ee0f.azurestaticapps.net/*",
+        "enable": true,
+        "baseUri": "/",
         "proxyUri": "https://www.gs1au.org/nlr"
     }
 }
