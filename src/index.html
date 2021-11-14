@@ -15,16 +15,13 @@
   </main>
 </body>
 
-<script>
-  function getURL()
-  {
-      return window.location.href
-  }
-  if (getURL())
-  {
-    window.location.assign("https://www.gs1au.org/nlr"); 
-  }
-  
-</script>
+  <script>
+      var currentURL = window.location.href;
+      if (currentURL)
+      {
+        window.location.assign("https://www.gs1au.org/nlr"); 
+      }
+      
+  </script>
 
 </html>
