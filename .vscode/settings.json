@@ -8,7 +8,7 @@
     "azureFunctions.preDeployTask": "npm prune (functions)",
     "liveServer.settings.proxy": {
         "enable": true,
-        "baseUri": "/",
+        "baseUri": "https://ashy-stone-0abf8ee0f.azurestaticapps.net/test",
         "proxyUri": "https://www.gs1au.org/nlr"
     }
 }
